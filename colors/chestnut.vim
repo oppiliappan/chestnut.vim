@@ -41,10 +41,13 @@ hi TabLineSel          ctermfg=0     ctermbg=1     cterm=underline
 hi Folded              ctermfg=3     ctermbg=0
 hi Directory           ctermfg=12    ctermbg=7
 hi Title               ctermfg=3     cterm=bold
-hi ErrorMsg            ctermfg=14    ctermbg=1
-hi DiffAdd             ctermfg=6     ctermbg=NONE
-hi DiffChange          ctermfg=6     ctermbg=NONE
-hi DiffDelete          ctermfg=6     ctermbg=NONE
+hi ErrorMsg            ctermfg=14    ctermbg=15
+hi DiffAdd             ctermfg=10	 ctermbg=7
+hi DiffChange          ctermfg=12    ctermbg=7
+hi DiffDelete          ctermfg=14    ctermbg=7
+hi! link GitGutterAdd  			DiffAdd
+hi! link GitGutterChange		DiffChange
+hi! link GitGutterDelete		DiffDelete
 
 hi User1               ctermfg=14    ctermbg=5
 hi User2               ctermfg=14    ctermbg=9
@@ -56,7 +59,7 @@ hi User7               ctermfg=14    ctermbg=13
 hi User9               ctermfg=14    ctermbg=10
 hi User8               ctermfg=14    ctermbg=9
 hi! link CursorColumn  CursorLine
-hi! link SignColumn    LineNr
+hi  SignColumn    	   ctermbg=7
 hi! link WildMenu      Visual
 hi! link FoldColumn    SignColumn
 hi! link WarningMsg    ErrorMsg
@@ -69,13 +72,13 @@ hi! link SpecialKey    NonText
 "}}}
 " Generic syntax {{{
 hi Delimiter       ctermfg=12  ctermbg=13    cterm=NONE
-hi Comment         ctermfg=14  ctermbg=15     cterm=NONe
+hi Comment         ctermfg=14  ctermbg=15     cterm=NONE
 hi Underlined      ctermfg=4   cterm=underline
 hi Type            ctermfg=4
 hi String          ctermfg=10  ctermbg=11
 hi Keyword         ctermfg=12  ctermbg=13     cterm=bold
 hi Todo            ctermfg=14  ctermbg=NONE     cterm=bold,underline
-hi Function        ctermfg=8   ctermbg=9 		cterm=bold
+hi Function        ctermfg=8   ctermbg=9 		cterm=NONE
 hi Identifier      ctermfg=12  ctermbg=13   cterm=NONE
 hi Statement       ctermfg=8 ctermbg=9   cterm=NONE
 hi Constant        ctermfg=12
