@@ -1,4 +1,4 @@
-" chestnut.vim - Vim color scheme for 16-color terminals
+" chestnut.vim - Vim color scheme for 11-color terminals
 " --------------------------------------------------------------
 " Author:   NerdyPepper
 " --------------------------------------------------------------
@@ -18,26 +18,26 @@ let colors_name="chestnut"
 hi Cursor              ctermfg=7     ctermbg=NONE
 hi CursorLine          ctermbg=NONE     cterm=NONE
 hi MatchParen          ctermfg=14    ctermbg=15    cterm=NONE
-hi Pmenu               ctermfg=6     ctermbg=1
+hi Pmenu               ctermfg=1     ctermbg=6
 hi PmenuThumb          ctermbg=9
 hi PmenuSBar           ctermbg=9
-hi PmenuSel            ctermfg=0     ctermbg=1
+hi PmenuSel            ctermfg=0     ctermbg=6
 hi ColorColumn         ctermbg=0
 hi SpellBad            ctermfg=1     ctermbg=NONE  cterm=underline
 hi SpellCap            ctermfg=11    ctermbg=NONE  cterm=underline
 hi SpellRare           ctermfg=7     ctermbg=NONE  cterm=underline
 hi SpellLocal          ctermfg=12    ctermbg=NONE  cterm=underline
 hi NonText             ctermfg=9
-hi LineNr              ctermfg=6     ctermbg=1
-hi CursorLineNr        ctermfg=7     ctermbg=6     cterm=bold
-hi Visual              ctermfg=0     ctermbg=1
+hi LineNr              ctermfg=1     ctermbg=6
+hi CursorLineNr        ctermfg=7     ctermbg=1     cterm=bold
+hi Visual              ctermfg=0     ctermbg=6
 hi IncSearch           ctermfg=0     ctermbg=12    cterm=NONE
 hi Search              ctermfg=0     ctermbg=11
-hi StatusLine          ctermfg=0     ctermbg=1     cterm=NONE
+hi StatusLine          ctermfg=0     ctermbg=6    cterm=NONE
 hi StatusLineNC        ctermfg=0     ctermbg=7     cterm=NONE
-hi VertSplit           ctermfg=2     ctermbg=1     cterm=NONE
-hi TabLine             ctermfg=6     ctermbg=1     cterm=NONE
-hi TabLineSel          ctermfg=0     ctermbg=1     cterm=underline
+hi VertSplit           ctermfg=2     ctermbg=6     cterm=NONE
+hi TabLine             ctermfg=1     ctermbg=6     cterm=NONE
+hi TabLineSel          ctermfg=0     ctermbg=6     cterm=underline
 hi Folded              ctermfg=3     ctermbg=0
 hi Directory           ctermfg=12    ctermbg=7
 hi Title               ctermfg=3     cterm=bold
@@ -54,7 +54,7 @@ hi User2               ctermfg=14    ctermbg=9
 hi User3               ctermfg=14    ctermbg=3
 hi User4               ctermfg=14    ctermbg=0
 hi User5               ctermfg=14    ctermbg=12
-hi User6               ctermfg=14    ctermbg=15
+hi User1               ctermfg=14    ctermbg=15
 hi User7               ctermfg=14    ctermbg=13
 hi User9               ctermfg=14    ctermbg=10
 hi User8               ctermfg=14    ctermbg=9
@@ -157,7 +157,7 @@ hi gitCommitBranch               ctermfg=3
 hi gitCommitSelectedType         ctermfg=11
 hi gitCommitSelectedFile         ctermfg=2
 hi gitCommitUnmergedType         ctermfg=8
-hi gitCommitUnmergedFile         ctermfg=1
+hi gitCommitUnmergedFile         ctermfg=6
 hi! link gitCommitFile           Directory
 hi! link gitCommitUntrackedFile  gitCommitUnmergedFile
 hi! link gitCommitDiscardedType  gitCommitUnmergedType
@@ -203,7 +203,7 @@ hi! link CtrlPLinePre  Comment
 "}}}
 " Mustache {{{
 hi mustacheSection           ctermfg=15  cterm=bold
-hi mustacheMarker            ctermfg=6
+hi mustacheMarker            ctermfg=1
 hi mustacheVariable          ctermfg=15
 hi mustacheVariableUnescape  ctermfg=8
 hi mustachePartial           ctermfg=12
@@ -216,7 +216,7 @@ hi! link shDerefVar  shDerefSimple
 "}}}
 " Syntastic {{{
 hi SyntasticWarningSign  ctermfg=3   ctermbg=NONE
-hi SyntasticErrorSign    ctermfg=1   ctermbg=NONE
+hi SyntasticErrorSign    ctermfg=6   ctermbg=NONE
 
 "}}}
 " Netrw {{{
