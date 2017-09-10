@@ -1,6 +1,6 @@
 " chestnut.vim - Vim color scheme for 11-color terminals
 " --------------------------------------------------------------
-" Author:   NerdyPepper
+" Author - NerdyPepper
 " --------------------------------------------------------------
 
 " Scheme setup {{{
@@ -74,7 +74,7 @@ hi! link SpecialKey    NonText
 hi Delimiter       ctermfg=12  ctermbg=13    cterm=NONE
 hi Comment         ctermfg=14  ctermbg=15     cterm=NONE
 hi Underlined      ctermfg=4   cterm=underline
-hi Type            ctermfg=4
+hi Type            ctermfg=0   cterm=bold
 hi String          ctermfg=10  ctermbg=11
 hi Keyword         ctermfg=12  ctermbg=13     cterm=bold
 hi Todo            ctermfg=14  ctermbg=NONE     cterm=bold,underline
@@ -87,13 +87,13 @@ hi Boolean         ctermfg=4
 hi Special         ctermfg=12
 hi Ignore          ctermfg=0
 hi! link Operator  Delimiter
-hi! link PreProc   Delimiter
+hi! link PreProc   Type
 hi! link Error     ErrorMsg
 
 "}}}
 " HTML {{{
 hi htmlTagName              ctermfg=0
-hi htmlTag                  ctermfg=2
+hi htmlTag                  ctermfg=3
 hi htmlArg                  ctermfg=14  ctermbg=15
 hi htmlH1                   cterm=bold
 hi htmlBold                 cterm=bold
@@ -108,8 +108,8 @@ hi! link htmlEndTag         htmlTag
 
 "}}}
 " XML {{{
-hi xmlTagName       ctermfg=4
-hi xmlTag           ctermfg=13
+hi xmlTagName       ctermfg=0
+hi xmlTag           ctermfg=12  ctermbg=13
 hi! link xmlString  xmlTagName
 hi! link xmlAttrib  xmlTag
 hi! link xmlEndTag  xmlTag
@@ -202,11 +202,11 @@ hi! link CtrlPLinePre  Comment
 
 "}}}
 " Mustache {{{
-hi mustacheSection           ctermfg=15  cterm=bold
-hi mustacheMarker            ctermfg=1
-hi mustacheVariable          ctermfg=15
-hi mustacheVariableUnescape  ctermfg=8
-hi mustachePartial           ctermfg=12
+hi mustacheSection           ctermfg=14  ctermbg=15
+hi mustacheMarker            ctermfg=0
+hi mustacheVariable          ctermfg=8   ctermbg=9
+hi mustacheVariableUnescape  ctermfg=10  ctermbg=11
+hi mustachePartial           ctermfg=12  ctermbg=13
 
 "}}}
 " Shell {{{
