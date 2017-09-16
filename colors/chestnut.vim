@@ -30,7 +30,7 @@ hi SpellLocal          ctermfg=12    ctermbg=NONE  cterm=underline
 hi NonText             ctermfg=9
 hi LineNr              ctermfg=1     ctermbg=6
 hi CursorLineNr        ctermfg=7     ctermbg=1     cterm=bold
-hi Visual              ctermfg=0     ctermbg=6
+hi Visual              ctermfg=0     ctermbg=1
 hi IncSearch           ctermfg=0     ctermbg=12    cterm=NONE
 hi Search              ctermfg=0     ctermbg=11
 hi StatusLine          ctermfg=0     ctermbg=6    cterm=NONE
@@ -39,7 +39,7 @@ hi VertSplit           ctermfg=2     ctermbg=6     cterm=NONE
 hi TabLine             ctermfg=1     ctermbg=6     cterm=NONE
 hi TabLineSel          ctermfg=0     ctermbg=6     cterm=underline
 hi Folded              ctermfg=3     ctermbg=0
-hi Directory           ctermfg=12    ctermbg=7
+hi Directory           ctermfg=3    ctermbg=7
 hi Title               ctermfg=3     cterm=bold
 hi ErrorMsg            ctermfg=14    ctermbg=15
 hi DiffAdd             ctermfg=10	 ctermbg=7
@@ -74,9 +74,9 @@ hi! link SpecialKey    NonText
 hi Delimiter       ctermfg=12  ctermbg=13    cterm=NONE
 hi Comment         ctermfg=14  ctermbg=15     cterm=NONE
 hi Underlined      ctermfg=4   cterm=underline
-hi Type            ctermfg=0   cterm=bold
+hi Type            ctermfg=0
 hi String          ctermfg=10  ctermbg=11
-hi Keyword         ctermfg=12  ctermbg=13     cterm=bold
+hi Keyword         ctermfg=12  ctermbg=13
 hi Todo            ctermfg=14  ctermbg=NONE     cterm=bold,underline
 hi Function        ctermfg=8   ctermbg=9 		cterm=NONE
 hi Identifier      ctermfg=12  ctermbg=13   cterm=NONE
@@ -87,7 +87,7 @@ hi Boolean         ctermfg=4
 hi Special         ctermfg=12
 hi Ignore          ctermfg=0
 hi! link Operator  Delimiter
-hi! link PreProc   Type
+hi PreProc   ctermfg=0  cterm=bold
 hi! link Error     ErrorMsg
 
 "}}}
@@ -171,13 +171,14 @@ hi! link vimHiAttrib  Constant
 
 "}}}
 " LESS {{{
-hi lessVariable             ctermfg=10
+hi lessVariable             ctermfg=10  ctermbg=11
 hi! link lessVariableValue  Normal
 
 "}}}
 " NERDTree {{{
 hi! link NERDTreeHelp      Comment
 hi! link NERDTreeExecFile  String
+hi NERDTreeDirSlash    	   ctermfg=5
 
 "}}}
 " Vimwiki {{{
