@@ -27,9 +27,9 @@ hi SpellBad            ctermfg=1     ctermbg=NONE  cterm=underline
 hi SpellCap            ctermfg=11    ctermbg=NONE  cterm=underline
 hi SpellRare           ctermfg=7     ctermbg=NONE  cterm=underline
 hi SpellLocal          ctermfg=12    ctermbg=NONE  cterm=underline
-hi NonText             ctermfg=9
+hi NonText             ctermfg=0
 hi LineNr              ctermfg=1     ctermbg=6
-hi CursorLineNr        ctermfg=7     ctermbg=1     cterm=bold
+hi CursorLineNr        ctermfg=0     ctermbg=6     cterm=bold
 hi Visual              ctermfg=0     ctermbg=1
 hi IncSearch           ctermfg=0     ctermbg=12    cterm=NONE
 hi Search              ctermfg=0     ctermbg=11
@@ -178,7 +178,7 @@ hi! link lessVariableValue  Normal
 " NERDTree {{{
 hi! link NERDTreeHelp      Comment
 hi! link NERDTreeExecFile  String
-hi NERDTreeDirSlash    	   ctermfg=5
+hi NERDTreeDirSlash    	   ctermfg=0
 
 "}}}
 " Vimwiki {{{
