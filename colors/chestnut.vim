@@ -92,9 +92,9 @@ hi! link Error     ErrorMsg
 
 "}}}
 " HTML {{{
-hi htmlTagName              ctermfg=0
+hi htmlTagName              ctermfg=8	ctermbg=9
 hi htmlTag                  ctermfg=3
-hi htmlArg                  ctermfg=14  ctermbg=15
+hi htmlArg                  ctermfg=0 	cterm=italic
 hi htmlH1                   cterm=bold
 hi htmlBold                 cterm=bold
 hi htmlItalic               cterm=underline
