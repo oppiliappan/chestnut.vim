@@ -1,4 +1,4 @@
-![heroimage](images/chestnut.png | height=100)
+![heroimage](images/chesnut.png)
 
 Minimal syntax highlighting for 16-color terminals.
 
