@@ -1,4 +1,4 @@
-![heroimage](images/chesnut.png)
+<img src="https://github.com/NerdyPepper/chestnut.vim/blob/master/images/chesnut.png">
 
 Minimal syntax highlighting for 16-color terminals.
 
