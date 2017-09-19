@@ -38,11 +38,11 @@ To activate the chestnut theme, the following line to your `vimrc`:
 
 `colorscheme chestnut`
 
-### Screenshots
+## Screenshots
 
 ![screenie](images/split.png)
 
-### TODO
+## TODO
 
 - Add more languages
 - Support more plugins
