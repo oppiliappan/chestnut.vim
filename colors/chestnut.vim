@@ -1,4 +1,4 @@
-" chestnut.vim - Vim color scheme for 11-color terminals
+" chestnut.vim - Vim color scheme for 16-color terminals
 " --------------------------------------------------------------
 " Author - NerdyPepper
 " --------------------------------------------------------------
@@ -16,7 +16,7 @@ let colors_name="chestnut"
 "}}}
 " Vim UI {{{
 hi Cursor              ctermfg=7     ctermbg=NONE
-hi CursorLine          ctermbg=NONE     cterm=NONE
+hi CursorLine          ctermbg=NONE	 cterm=NONE
 hi MatchParen          ctermfg=14    ctermbg=15    cterm=NONE
 hi Pmenu               ctermfg=1     ctermbg=6
 hi PmenuThumb          ctermbg=9
@@ -24,7 +24,7 @@ hi PmenuSBar           ctermbg=9
 hi PmenuSel            ctermfg=0     ctermbg=6
 hi ColorColumn         ctermbg=0
 hi SpellBad            ctermfg=1     ctermbg=NONE  cterm=underline
-hi SpellCap            ctermfg=11    ctermbg=NONE  cterm=underline
+hi SpellCap            ctermfg=10    ctermbg=11	   cterm=underline
 hi SpellRare           ctermfg=7     ctermbg=NONE  cterm=underline
 hi SpellLocal          ctermfg=12    ctermbg=NONE  cterm=underline
 hi NonText             ctermfg=0
@@ -32,7 +32,7 @@ hi LineNr              ctermfg=1     ctermbg=6
 hi CursorLineNr        ctermfg=0     ctermbg=6     cterm=bold
 hi Visual              ctermfg=0     ctermbg=1
 hi IncSearch           ctermfg=0     ctermbg=12    cterm=NONE
-hi Search              ctermfg=0     ctermbg=11
+hi Search              ctermfg=10     ctermbg=11
 hi StatusLine          ctermfg=0     ctermbg=6    cterm=NONE
 hi StatusLineNC        ctermfg=0     ctermbg=7     cterm=NONE
 hi VertSplit           ctermfg=2     ctermbg=6     cterm=NONE
