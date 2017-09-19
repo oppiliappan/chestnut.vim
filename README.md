@@ -1,4 +1,5 @@
-# chestnut.vim
+![heroimage](images/chesnut.png)
+
 Minimal syntax highlighting for 16-color terminals.
 
 ![screenie](images/split.png)
