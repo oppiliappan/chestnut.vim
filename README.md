@@ -38,3 +38,8 @@ Download the desired [colourscheme files](https://github.com/nerdypepper/chestnu
 To activate the chestnut theme, the following line to your `vimrc`:
 
 `colorscheme chestnut`
+
+### TODO
+
+- Add more languages
+- Support more plugins
