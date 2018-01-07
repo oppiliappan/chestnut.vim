@@ -15,8 +15,8 @@ let colors_name="chestnut"
 
 "}}}
 " Vim UI {{{
-hi Cursor              ctermfg=7     ctermbg=NONE
-hi CursorLine          ctermbg=NONE	 cterm=NONE
+hi Cursor              ctermfg=NONE  ctermbg=NONE
+hi CursorLine          ctermbg=NONE  cterm=NONE
 hi MatchParen          ctermfg=14    ctermbg=15    cterm=NONE
 hi Pmenu               ctermfg=1     ctermbg=6
 hi PmenuThumb          ctermbg=9
@@ -27,27 +27,27 @@ hi SpellBad            ctermfg=1     ctermbg=NONE  cterm=underline
 hi SpellCap            ctermfg=10    ctermbg=11	   cterm=underline
 hi SpellRare           ctermfg=7     ctermbg=NONE  cterm=underline
 hi SpellLocal          ctermfg=12    ctermbg=NONE  cterm=underline
-hi NonText             ctermfg=0
+hi NonText             ctermfg=1
 hi LineNr              ctermfg=1     ctermbg=6
 hi CursorLineNr        ctermfg=0     ctermbg=6     cterm=bold
 hi Visual              ctermfg=0     ctermbg=1
-hi IncSearch           ctermfg=0     ctermbg=12    cterm=NONE
+hi IncSearch           ctermfg=10     ctermbg=11    cterm=NONE
 hi Search              ctermfg=10     ctermbg=11
 hi StatusLine          ctermfg=0     ctermbg=6    cterm=NONE
 hi StatusLineNC        ctermfg=0     ctermbg=7     cterm=NONE
-hi VertSplit           ctermfg=2     ctermbg=6     cterm=NONE
+hi VertSplit           ctermfg=6     ctermbg=6     cterm=NONE
 hi TabLine             ctermfg=1     ctermbg=6     cterm=NONE
-hi TabLineSel          ctermfg=0     ctermbg=6     cterm=underline
+hi TabLineSel          ctermfg=10    ctermbg=11     cterm=NONE
 hi Folded              ctermfg=3     ctermbg=0
 hi Directory           ctermfg=3    ctermbg=7
 hi Title               ctermfg=3     cterm=bold
 hi ErrorMsg            ctermfg=14    ctermbg=15
-hi DiffAdd             ctermfg=10	 ctermbg=7
+hi DiffAdd             ctermfg=10    ctermbg=7
 hi DiffChange          ctermfg=12    ctermbg=7
 hi DiffDelete          ctermfg=14    ctermbg=7
-hi! link GitGutterAdd  			DiffAdd
-hi! link GitGutterChange		DiffChange
-hi! link GitGutterDelete		DiffDelete
+hi! link GitGutterAdd     DiffAdd
+hi! link GitGutterChange  DiffChange
+hi! link GitGutterDelete  DiffDelete
 
 hi User1               ctermfg=14    ctermbg=5
 hi User2               ctermfg=14    ctermbg=9
@@ -77,8 +77,8 @@ hi Underlined      ctermfg=4   cterm=underline
 hi Type            ctermfg=0
 hi String          ctermfg=10  ctermbg=11
 hi Keyword         ctermfg=12  ctermbg=13
-hi Todo            ctermfg=14  ctermbg=NONE     cterm=bold,underline
-hi Function        ctermfg=8   ctermbg=9 		cterm=NONE
+hi Todo            ctermfg=12  ctermbg=13
+hi Function        ctermfg=8   ctermbg=9    cterm=NONE
 hi Identifier      ctermfg=12  ctermbg=13   cterm=NONE
 hi Statement       ctermfg=8 ctermbg=9   cterm=NONE
 hi Constant        ctermfg=12
