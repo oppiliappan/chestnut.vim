@@ -2,8 +2,6 @@
 
 Minimal syntax highlighting for 16-color terminals.
 
-![screenie](images/split.png)
-
 ## Installation
 
 ### Step 0: Set terminal colors
@@ -40,7 +38,11 @@ To activate the chestnut theme, the following line to your `vimrc`:
 
 `colorscheme chestnut`
 
-### TODO
+## Screenshots
+
+![screenie](images/split.png)
+
+## TODO
 
 - Add more languages
 - Support more plugins
