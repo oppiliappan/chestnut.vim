@@ -52,10 +52,11 @@ HTML:
 
 C++:
 
-![chestnutcpp](https://0x0.st/sNfV.png)
+![chestnutcpp](https://0x0.st/sNft.png)
 
 
 Vim help pages:
+
 ![chestnuthelp](https://0x0.st/sNfW.png)
 
 
