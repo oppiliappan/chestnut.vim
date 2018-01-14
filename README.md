@@ -42,21 +42,21 @@ To activate the chestnut theme, the following line to your `vimrc`:
 
 Javascript:
 
-[chestnutjs](https://0x0.st/sNfp.png)
+![chestnutjs](https://0x0.st/sNfp.png)
 
 
 HTML:
 
-[chestnuthtml](https://0x0.st/sNff.png)
+![chestnuthtml](https://0x0.st/sNff.png)
 
 
 C++:
 
-[chestnutcpp](https://0x0.st/sNfV.png)
+![chestnutcpp](https://0x0.st/sNfV.png)
 
 
 Vim help pages:
-[chestnuthelp](https://0x0.st/sNfW.png)
+![chestnuthelp](https://0x0.st/sNfW.png)
 
 
 ## TODO
