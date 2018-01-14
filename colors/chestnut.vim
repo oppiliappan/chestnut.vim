@@ -141,7 +141,7 @@ hi! link markdownAutomaticLink      markdownLinkText
 hi! link markdownCodeBlock          String
 hi markdownCode                     cterm=bold
 hi markdownBold                     cterm=bold
-hi markdownItalic                   cterm=underline
+hi markdownItalic                   cterm=italic
 
 "}}}
 " Ruby {{{

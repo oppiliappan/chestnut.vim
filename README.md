@@ -40,7 +40,24 @@ To activate the chestnut theme, the following line to your `vimrc`:
 
 ## Screenshots
 
-![screenie](images/split.png)
+Javascript:
+
+[chestnutjs](https://0x0.st/sNfp.png)
+
+
+HTML:
+
+[chestnuthtml](https://0x0.st/sNff.png)
+
+
+C++:
+
+[chestnutcpp](https://0x0.st/sNfV.png)
+
+
+Vim help pages:
+[chestnuthelp](https://0x0.st/sNfW.png)
+
 
 ## TODO
 
